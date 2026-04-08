@@ -1,4 +1,4 @@
-# MovieSite
+# Cinex
 
 A simple Django movie catalog web application with user authentication, genre browsing, and favourite movie tracking.
 
