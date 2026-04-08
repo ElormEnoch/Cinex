@@ -1,0 +1,42 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}My Favourites – Cinex{% endblock %}
+
+{% block content %}
+  <h1>My Favourites</h1>
+  <p>Films you have saved, most recently added first.</p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Year</th>
+        <th>Rating</th>
+        <th>Action</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for fav in favourites %}
+        <tr>
+          <td><a href="{% url 'movie_detail' fav.movie.id %}">{{ fav.movie.title }}</a></td>
+          <td>{{ fav.movie.genre.name }}</td>
+          <td>{{ fav.movie.year }}</td>
+          <td><span class="star">★</span> {{ fav.movie.rating }}</td>
+          <td>
+            <form method="post" action="{% url 'toggle_favourite' fav.movie.id %}" class="inline">
+              {% csrf_token %}
+              <button type="submit" style="background:none;border:none;cursor:pointer;color:#8c3d1f;font-family:Georgia,serif;font-size:0.9rem;padding:0;text-decoration:underline;">
+                Remove
+              </button>
+            </form>
+          </td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">You have not saved any favourites yet. <a href="{% url 'movie_list' %}">Browse movies</a> to get started.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+{% endblock %}

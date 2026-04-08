@@ -1,0 +1,32 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}Register – Cinex{% endblock %}
+
+{% block content %}
+  <h1>Create an Account</h1>
+  <p>Register to save films to your personal favourites list.</p>
+
+  <form method="post" style="max-width:24rem;">
+    {% csrf_token %}
+
+    {% for field in form %}
+      <div style="margin-bottom:1rem;">
+        <label for="{{ field.id_for_label }}" style="display:block;margin-bottom:0.3rem;font-size:0.9rem;color:#5b6470;">
+          {{ field.label }}
+        </label>
+        {{ field }}
+        {% if field.help_text %}
+          <p style="font-size:0.8rem;color:#888;margin:0.2rem 0 0;">{{ field.help_text }}</p>
+        {% endif %}
+        {% if field.errors %}
+          {% for error in field.errors %}
+            <p style="color:#a33;font-size:0.85rem;margin:0.2rem 0 0;">{{ error }}</p>
+          {% endfor %}
+        {% endif %}
+      </div>
+    {% endfor %}
+
+    <button type="submit" class="btn">Create Account</button>
+    <p class="meta">Already have an account? <a href="{% url 'login' %}">Log in here</a>.</p>
+  </form>
+{% endblock %}

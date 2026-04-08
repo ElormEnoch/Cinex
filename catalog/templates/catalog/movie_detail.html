@@ -1,0 +1,57 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}{{ movie.title }} – Cinex{% endblock %}
+
+{% block content %}
+  <p><a href="{% url 'movie_list' %}">&larr; Back to all movies</a></p>
+  <h1>{{ movie.title }}</h1>
+  <p>
+    <span class="badge">{{ movie.genre.name }}</span>
+    <span class="badge">{{ movie.year }}</span>
+    <span class="badge"><span class="star">★</span> {{ movie.rating }}</span>
+    {% if movie.runtime_minutes %}
+      <span class="badge">{{ movie.runtime_minutes }} min</span>
+    {% endif %}
+  </p>
+
+  {% if user.is_authenticated %}
+    <p class="fav-btn">
+      <form method="post" action="{% url 'toggle_favourite' movie.id %}" class="inline">
+        {% csrf_token %}
+        {% if is_favourite %}
+          <button type="submit">&#9733; Remove from favourites</button>
+        {% else %}
+          <button type="submit">&#9734; Add to favourites</button>
+        {% endif %}
+      </form>
+    </p>
+  {% else %}
+    <p class="meta"><a href="{% url 'login' %}">Log in</a> to save this film to your favourites.</p>
+  {% endif %}
+
+  <dl>
+    <dt>Director</dt>
+    <dd>{{ movie.director|default:"Not listed" }}</dd>
+
+    <dt>Genre</dt>
+    <dd>
+      <a href="{% url 'genre_detail' movie.genre.id %}">{{ movie.genre.name }}</a>
+      &mdash; {{ movie.genre.description|default:"" }}
+    </dd>
+
+    <dt>Year</dt>
+    <dd>{{ movie.year }}</dd>
+
+    <dt>Rating</dt>
+    <dd><span class="star">★</span> {{ movie.rating }} / 10</dd>
+
+    <dt>Runtime</dt>
+    <dd>{% if movie.runtime_minutes %}{{ movie.runtime_minutes }} minutes{% else %}Not listed{% endif %}</dd>
+
+    <dt>Description</dt>
+    <dd>{{ movie.description|default:"No description available." }}</dd>
+
+    <dt>Dataset ID</dt>
+    <dd>{{ movie.source_code }}</dd>
+  </dl>
+{% endblock %}

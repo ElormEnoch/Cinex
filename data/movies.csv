@@ -1,0 +1,151 @@
+source_code,title,genre_code,director,year,rating,runtime_minutes,description
+M001,The Shawshank Redemption,DRA,Frank Darabont,1994,9.3,142,A banker is sentenced to life in Shawshank Prison where he befriends a fellow prisoner and finds hope.
+M002,Schindler's List,DRA,Steven Spielberg,1993,9.0,195,A German industrialist saves Jewish refugees during the Holocaust by employing them in his factories.
+M003,Forrest Gump,DRA,Robert Zemeckis,1994,8.8,142,A slow-witted but kind-hearted man from Alabama witnesses and influences several defining historical events.
+M004,Good Will Hunting,DRA,Gus Van Sant,1997,8.3,126,A janitor at MIT is discovered to be a mathematical genius who struggles with his troubled past.
+M005,A Beautiful Mind,DRA,Ron Howard,2001,8.2,135,The life story of mathematician John Nash who makes a paranoid descent into schizophrenia.
+M006,The Green Mile,DRA,Frank Darabont,1999,8.6,189,A death row corrections officer discovers one of his prisoners possesses a mysterious gift.
+M007,Whiplash,DRA,Damien Chazelle,2014,8.5,107,A young drummer enrols at a cutthroat conservatory where he is pushed to his limits by an abusive instructor.
+M008,12 Years a Slave,DRA,Steve McQueen,2013,8.1,134,A free Black man in the antebellum United States is kidnapped and sold into slavery.
+M009,The Pursuit of Happyness,DRA,Gabriele Muccino,2006,8.0,117,A struggling salesman takes custody of his son and must make ends meet while pursuing a stockbroker internship.
+M010,Moonlight,DRA,Barry Jenkins,2016,7.4,111,A young man's journey of self-discovery over three defining chapters of his life in Miami.
+M011,Manchester by the Sea,DRA,Kenneth Lonergan,2016,7.8,137,A man is forced to return to his hometown after his brother dies, leaving him responsible for his teenage nephew.
+M012,Marriage Story,DRA,Noah Baumbach,2019,7.9,137,A stage director and an actress struggle through a heart-wrenching divorce while trying to stay connected.
+M013,The Father,DRA,Florian Zeller,2020,8.3,97,A man refuses help from his daughter as he ages and his mind begins to slip away.
+M014,Nomadland,DRA,Chloe Zhao,2020,7.3,108,A woman embarks on a journey through the American West after losing everything in the recession.
+M015,The Pianist,DRA,Roman Polanski,2002,8.5,150,A Jewish-Polish pianist struggles to survive the destruction of the Warsaw Ghetto during the Second World War.
+M016,Some Like It Hot,COM,Billy Wilder,1959,8.2,121,Two musicians witness a mob murder and flee disguised as women in an all-female band.
+M017,Groundhog Day,COM,Harold Ramis,1993,8.0,101,A cynical TV weatherman finds himself reliving the same day over and over in a small town.
+M018,The Grand Budapest Hotel,COM,Wes Anderson,2014,8.1,99,A concierge and his lobby boy become embroiled in the theft of a painting and a family fortune.
+M019,Knives Out,COM,Rian Johnson,2019,7.9,130,A detective investigates the death of a crime novelist surrounded by his dysfunctional family.
+M020,The Favourite,COM,Yorgos Lanthimos,2018,7.5,119,In 18th-century England, a new servant arrives to the royal court and upends the relationship between a queen and her confidante.
+M021,Superbad,COM,Greg Mottola,2007,7.6,113,Two co-dependent high school seniors attempt to have the greatest night of their lives before going off to college.
+M022,Step Brothers,COM,Adam McKay,2008,6.9,98,Two grown men whose parents marry must contend with each other as stepbrothers.
+M023,The Big Lebowski,COM,Joel Coen,1998,8.1,117,A case of mistaken identity drags a bowling enthusiast into a complex kidnapping scheme.
+M024,Airplane!,COM,Jim Abrahams,1980,7.7,88,When a pilot is incapacitated, a traumatised ex-fighter pilot must land a passenger aircraft.
+M025,Monty Python and the Holy Grail,COM,Terry Gilliam,1975,8.2,91,King Arthur and his knights embark on a low-budget search for the Holy Grail across England.
+M026,What We Do in the Shadows,COM,Taika Waititi,2014,7.6,86,A documentary crew follows four vampires who have been flatmates for centuries in New Zealand.
+M027,About Time,ROM,Richard Curtis,2013,7.8,123,A young man discovers he can travel through time and tries to improve his life by changing the past.
+M028,La La Land,ROM,Damien Chazelle,2016,8.0,128,A jazz pianist and an aspiring actress fall in love in Los Angeles while pursuing their dreams.
+M029,Before Sunrise,ROM,Richard Linklater,1995,8.1,101,Two strangers meet on a train and spend one magical night together in Vienna.
+M030,Her,ROM,Spike Jonze,2013,8.0,126,A lonely writer falls in love with a newly developed artificial intelligence operating system.
+M031,Eternal Sunshine of the Spotless Mind,ROM,Michel Gondry,2004,8.3,108,A couple undergo a medical procedure to have each other erased from their memories after a painful break-up.
+M032,Notting Hill,ROM,Roger Michell,1999,7.2,124,A bookstore owner falls in love with the world's most famous actress when she walks into his shop.
+M033,Pride and Prejudice,ROM,Joe Wright,2005,7.8,129,In early 19th-century England, the romantic relationship between Elizabeth Bennet and Mr Darcy unfolds.
+M034,The Silence of the Lambs,THR,Jonathan Demme,1991,8.6,118,A young FBI cadet must receive the help of an imprisoned cannibal killer to catch another serial murderer.
+M035,Gone Girl,THR,David Fincher,2014,8.1,149,A husband becomes the prime suspect when his wife suddenly disappears on their fifth wedding anniversary.
+M036,Parasite,THR,Bong Joon-ho,2019,8.5,132,Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim family.
+M037,Oldboy,THR,Park Chan-wook,2003,8.1,120,After being imprisoned for 15 years without explanation, a man is released and seeks revenge.
+M038,Se7en,THR,David Fincher,1995,8.6,127,Two detectives hunt a serial killer who uses the seven deadly sins as his motives.
+M039,Prisoners,THR,Denis Villeneuve,2013,8.1,153,A father takes matters into his own hands after his daughter goes missing and the suspect is released.
+M040,Hereditary,HOR,Ari Aster,2018,7.3,127,A family unravels as they discover shocking secrets about their ancestry after the death of their matriarch.
+M041,Get Out,HOR,Jordan Peele,2017,7.7,104,A young African American man visits his white girlfriend's family estate and discovers unsettling secrets.
+M042,The Shining,HOR,Stanley Kubrick,1980,8.4,146,A family heads to an isolated hotel for the winter and the father becomes increasingly unhinged.
+M043,Midsommar,HOR,Ari Aster,2019,7.1,148,A couple travel to Sweden for a midsummer festival that reveals itself to be far more sinister.
+M044,A Quiet Place,HOR,John Krasinski,2018,7.5,90,A family struggles to survive in a post-apocalyptic world inhabited by blind monsters with an acute sense of hearing.
+M045,The Witch,HOR,Robert Eggers,2015,6.9,92,A puritan family encounters forces of evil in the woods beyond their New England plantation.
+M046,Hereditary,HOR,Ari Aster,2018,7.3,127,A family is haunted by a secretive and sinister heritage after the death of their matriarch.
+M047,2001: A Space Odyssey,SCI,Stanley Kubrick,1968,8.3,149,Humanity finds a mysterious monolith affecting human evolution while an AI computer menaces the crew.
+M048,Blade Runner 2049,SCI,Denis Villeneuve,2017,8.0,164,A young blade runner discovers a long-buried secret that leads him to track down a former blade runner.
+M049,Interstellar,SCI,Christopher Nolan,2014,8.6,169,A team of explorers travel through a wormhole in space to find a new habitable planet for humanity.
+M050,The Matrix,SCI,Lana Wachowski,1999,8.7,136,A computer hacker discovers the world he lives in is a simulated reality created by machines.
+M051,Arrival,SCI,Denis Villeneuve,2016,7.9,116,A linguist is recruited to communicate with alien lifeforms after twelve mysterious spacecraft arrive on Earth.
+M052,Ex Machina,SCI,Alex Garland,2014,7.7,108,A programmer participates in an experiment to evaluate the capabilities and consciousness of a humanoid robot.
+M053,Moon,SCI,Duncan Jones,2009,7.9,97,An astronaut nearing the end of his three-year solo stint on the moon makes a shocking discovery.
+M054,Annihilation,SCI,Alex Garland,2018,6.9,115,A biologist signs up for a dangerous secret expedition into a mysterious zone where the laws of nature do not apply.
+M055,Dune,SCI,Denis Villeneuve,2021,8.0,155,A noble family becomes embroiled in a war for control over the galaxy's most valuable asset on a desert planet.
+M056,Everything Everywhere All at Once,SCI,Daniel Kwan,2022,7.8,139,A middle-aged Chinese-American laundromat owner is swept up in a multiversal adventure to save existence.
+M057,Mad Max: Fury Road,ACT,George Miller,2015,8.1,120,In a post-apocalyptic wasteland, Max teams with a rebel warrior to overthrow a cult leader.
+M058,John Wick,ACT,Chad Stahelski,2014,7.4,101,An ex-hitman comes out of retirement to track down the gangsters who killed his dog.
+M059,The Dark Knight,ACT,Christopher Nolan,2008,9.0,152,Batman faces the Joker, a criminal mastermind who plunges Gotham into anarchy.
+M060,Die Hard,ACT,John McTiernan,1988,8.2,132,A New York police officer tries to save his wife and several others taken hostage by German terrorists.
+M061,Mission: Impossible – Fallout,ACT,Christopher McQuarrie,2018,7.7,147,Ethan Hunt and his IMF team race against time to prevent a catastrophic attack.
+M062,Top Gun: Maverick,ACT,Joseph Kosinski,2022,8.3,130,After more than 30 years of service, Pete Mitchell is called to train a new generation of Top Gun graduates.
+M063,The Raid,ACT,Gareth Evans,2011,7.6,101,A SWAT team becomes trapped in a tenement run by a ruthless mobster and his army of killers.
+M064,Heat,ACT,Michael Mann,1995,8.3,170,A group of professional bank robbers start to feel the heat from the police when a detective begins closing in.
+M065,Gladiator,ACT,Ridley Scott,2000,8.5,155,A former Roman general is sold into slavery and must fight as a gladiator to exact his revenge.
+M066,Toy Story,ANI,John Lasseter,1995,8.3,81,A cowboy doll is threatened when a new space ranger toy becomes the owner's favourite.
+M067,Spirited Away,ANI,Hayao Miyazaki,2001,8.6,125,During her parents' transformation into giant pigs, a sullen 10-year-old girl stumbles into a world ruled by gods.
+M068,The Lion King,ANI,Roger Allers,1994,8.5,88,A young lion prince is cast out of his pride by his murderous uncle who claims he killed his father.
+M069,WALL-E,ANI,Andrew Stanton,2008,8.4,98,In the distant future a small waste-collecting robot discovers love and its meaning as it strives to clean up an overflowing Earth.
+M070,Up,ANI,Pete Docter,2009,8.2,96,A 78-year-old balloon salesman finally fulfills his dream of a great adventure when he ties thousands of balloons to his house.
+M071,Spider-Man: Into the Spider-Verse,ANI,Bob Persichetti,2018,8.4,117,Teen Miles Morales becomes the Spider-Man of his universe and must team with five counterparts to save his world.
+M072,Princess Mononoke,ANI,Hayao Miyazaki,1997,8.4,134,On a journey to find the cure for a Tatarigami's curse, a young man turns into a pawn between the industrialisation of the West and the spirits of the forest.
+M073,Coco,ANI,Lee Unkrich,2017,8.4,105,Aspiring musician Miguel enters the Land of the Dead to find his late great-great-grandfather.
+M074,Persepolis,ANI,Vincent Paronnaud,2007,8.0,96,A young Iranian girl comes of age during the Islamic Revolution and later lives in Vienna and returns home.
+M075,The Incredibles,ANI,Brad Bird,2004,8.0,115,A family of undercover superheroes tries to live a quiet suburban life but are forced into action to save the world.
+M076,Planet Earth II,DOC,David Attenborough,2016,9.5,240,Sir David Attenborough presents stunning footage of wildlife in environments including islands, mountains, and jungles.
+M077,13th,DOC,Ava DuVernay,2016,8.2,100,An in-depth look at the prison system in the United States and how it reveals the nation's history of racial inequality.
+M078,Amy,DOC,Asif Kapadia,2015,7.8,128,The story of Amy Winehouse, in her own words and archive footage from her earliest childhood years until her tragic death.
+M079,Bowling for Columbine,DOC,Michael Moore,2002,8.0,120,American filmmaker Michael Moore explores the violent culture behind the Columbine High School shootings.
+M080,March of the Penguins,DOC,Luc Jacquet,2005,7.6,80,In the Antarctic winter the emperor penguin makes an extraordinary journey to mate and raise its young.
+M081,The Act of Killing,DOC,Joshua Oppenheimer,2012,8.2,159,A documentary in which former Indonesian death-squad leaders are invited to reenact their real-life mass killings.
+M082,Icarus,DOC,Bryan Fogel,2017,7.9,96,An exploration of state-sponsored doping in Russia that uncovers the largest scandal in sporting history.
+M083,Free Solo,DOC,Jimmy Chin,2018,8.2,100,Alex Honnold attempts to be the first person to ever free solo climb El Capitan in Yosemite.
+M084,The Last Dance,DOC,Jason Hehir,2020,9.1,500,The story of Michael Jordan and the Chicago Bulls dynasty is chronicled through rare footage and interviews.
+M085,Won't You Be My Neighbor?,DOC,Morgan Neville,2018,8.4,94,A look at the life and work of Fred Rogers, the creator and star of the long-running children's TV programme.
+M086,"The Good, the Bad and the Ugly",WES,Sergio Leone,1966,8.8,178,A bounty hunting scam joins two men in an uneasy alliance against a third in a race to find a Confederate treasure.
+M087,Unforgiven,WES,Clint Eastwood,1992,8.2,130,Retired outlaw William Munny reluctantly takes on one last job to avenge a wounded prostitute.
+M088,Butch Cassidy and the Sundance Kid,WES,George Roy Hill,1969,8.1,110,Outlaw Butch Cassidy and his partner are pursued relentlessly by a determined posse.
+M089,True Grit,WES,Joel Coen,2010,7.6,110,A tough US Marshal helps a stubborn young woman track down her father's murderer.
+M090,Tombstone,WES,George P. Cosmatos,1993,7.8,130,Wyatt Earp and Doc Holliday face the outlaw Cowboy gang in Tombstone, Arizona.
+M091,Once Upon a Time in the West,WES,Sergio Leone,1968,8.5,165,A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin.
+M092,Dances with Wolves,WES,Kevin Costner,1990,8.0,181,Lieutenant John Dunbar is assigned to a remote Civil War outpost and befriends a Lakota Sioux tribe.
+M093,The Revenant,ACT,Alejandro G. Inarritu,2015,8.0,156,A frontiersman on a fur trading expedition fights for survival after being mauled by a bear.
+M094,No Country for Old Men,THR,Joel Coen,2007,8.2,122,Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and money in the desert.
+M095,There Will Be Blood,DRA,Paul Thomas Anderson,2007,8.2,158,A story of family, religion, hatred, oil, and madness, following a prospector transformed by wealth.
+M096,Requiem for a Dream,DRA,Darren Aronofsky,2000,8.3,102,The drug-induced utopias of four Coney Island people are shattered when their addictions run deep.
+M097,American History X,DRA,Tony Kaye,1998,8.5,119,A former neo-nazi skinhead tries to prevent his younger brother from going down the same wrong path.
+M098,Fight Club,THR,David Fincher,1999,8.8,139,An insomniac office worker and a soap salesman build a network of men who want to physically fight one another.
+M099,Memento,THR,Christopher Nolan,2000,8.4,113,A man with short-term memory loss attempts to track down his wife's murderer using photographs and notes.
+M100,Inception,SCI,Christopher Nolan,2010,8.8,148,A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task.
+M101,The Truman Show,DRA,Peter Weir,1998,8.2,103,An insurance salesman discovers his whole life has been a TV show and sets out to escape.
+M102,American Beauty,DRA,Sam Mendes,1999,8.3,122,A sexually frustrated suburban father has a mid-life crisis after becoming infatuated with his daughter's best friend.
+M103,The Social Network,DRA,David Fincher,2010,7.7,120,The story of the founding of Facebook and the lawsuits that followed.
+M104,Boyhood,DRA,Richard Linklater,2014,7.9,165,The life of a young boy from age 6 to 18 filmed over 12 years with the same cast.
+M105,Roma,DRA,Alfonso Cuaron,2018,7.7,135,A year in the life of a middle-class family in Mexico City seen through the eyes of their domestic worker.
+M106,Portrait of a Lady on Fire,ROM,Celine Sciamma,2019,8.1,122,On an isolated island in Brittany, a female painter is commissioned to do a wedding portrait of a young woman.
+M107,Call Me by Your Name,ROM,Luca Guadagnino,2017,7.9,132,In 1980s northern Italy, a romance blossoms between a 17-year-old and a scholar working as an assistant to his father.
+M108,Carol,ROM,Todd Haynes,2015,7.2,118,An aspiring photographer develops an intimate relationship with an older woman in 1950s New York.
+M109,In the Mood for Love,ROM,Wong Kar-wai,2000,8.1,99,Two neighbours form a bond after they both suspect their spouses of having an affair.
+M110,Amélie,ROM,Jean-Pierre Jeunet,2001,8.3,122,A shy Parisian woman decides to change the lives of those around her for the better while struggling with her own isolation.
+M111,Casablanca,ROM,Michael Curtiz,1942,8.5,102,A cynical nightclub owner protects an old flame and her husband from the Nazis in Casablanca.
+M112,Singin' in the Rain,ROM,Gene Kelly,1952,8.3,103,A film production company and cast adapt to the transition from silent films to talkies.
+M113,When Harry Met Sally,ROM,Rob Reiner,1989,7.7,96,Two friends have a running debate about whether a man and a woman can ever truly be friends.
+M114,The Princess Bride,COM,Rob Reiner,1987,8.0,98,While sick in bed, a boy's grandfather reads him a story of a farmhand-turned-pirate and his true love.
+M115,Ferris Bueller's Day Off,COM,John Hughes,1986,7.8,103,A high school student decides to skip school and enjoy a day in Chicago with his best friends.
+M116,Bridesmaids,COM,Paul Feig,2011,6.8,125,Competition between the maid of honour and a bridesmaid develops into mayhem as the wedding approaches.
+M117,The Death of Stalin,COM,Armando Iannucci,2017,7.2,107,A dark comedy about the power struggle that followed the death of Soviet dictator Joseph Stalin.
+M118,Four Weddings and a Funeral,ROM,Mike Newell,1994,7.1,117,Over the course of five social occasions a year, a commitment-phobic man meets the woman of his dreams.
+M119,The Shape of Water,ROM,Guillermo del Toro,2017,7.3,123,At a top secret research facility in the 1960s, a mute janitor falls in love with an amphibious creature.
+M120,Phantom Thread,DRA,Paul Thomas Anderson,2017,7.5,130,Set in 1950s London, Reynolds Woodcock is a renowned dressmaker whose carefully tailored life is disrupted by a young woman.
+M121,Dunkirk,ACT,Christopher Nolan,2017,7.9,106,Allied soldiers from Belgium, the British Empire, Canada, and France are surrounded by the German Army and evacuated from Dunkirk.
+M122,1917,ACT,Sam Mendes,2019,8.3,119,During World War One, two British soldiers must cross enemy territory and deliver a message that will stop 1600 men from walking into a deadly trap.
+M123,Saving Private Ryan,ACT,Steven Spielberg,1998,8.6,169,Following the Normandy Landings, a group of US soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.
+M124,Braveheart,ACT,Mel Gibson,1995,8.3,177,Scottish warrior William Wallace leads his countrymen in a rebellion to free Scotland from English rule.
+M125,The Departed,THR,Martin Scorsese,2006,8.5,151,An undercover cop and a mole in the police force attempt to identify each other while infiltrating an Irish gang.
+M126,L.A. Confidential,THR,Curtis Hanson,1997,8.2,138,As corruption grows in 1950s LA, three policemen attempt to address a variety of cases in different ways.
+M127,Zodiac,THR,David Fincher,2007,7.7,157,A cartoonist becomes obsessed with the Zodiac killer case in 1970s San Francisco.
+M128,Chinatown,THR,Roman Polanski,1974,8.2,130,A private detective investigating adultery stumbles upon a conspiracy involving a water supply scheme in 1937 LA.
+M129,Blood Simple,THR,Joel Coen,1984,7.6,99,A Texas bar owner hires a sleazy detective to kill his wife and her lover, but nothing goes to plan.
+M130,Mulholland Drive,THR,David Lynch,2001,7.9,147,After a car wreck on the winding Mulholland Drive renders a woman amnesiac, she and a perky aspiring actress investigate the mystery of the woman's identity.
+M131,The Terminator,SCI,James Cameron,1984,8.1,107,A human soldier is sent from the future to protect a woman the machines have targeted for assassination.
+M132,Jurassic Park,SCI,Steven Spielberg,1993,8.2,127,A pragmatic paleontologist visiting an almost-complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose.
+M133,Alien,SCI,Ridley Scott,1979,8.5,117,After a space merchant vessel receives an unknown transmission, one of its crew members is attacked by a mysterious life form.
+M134,Children of Men,SCI,Alfonso Cuaron,2006,7.9,109,In 2027, in a chaotic world where women have become somehow infertile, a former activist agrees to help transport a miraculously pregnant woman to a sanctuary.
+M135,Primer,SCI,Shane Carruth,2004,6.9,77,Two engineers accidentally discover a method of time travel and grapple with the consequences.
+M136,Rosemary's Baby,HOR,Roman Polanski,1968,8.0,137,A young couple moves into an apartment where a young wife becomes mysteriously pregnant.
+M137,It Follows,HOR,David Robert Mitchell,2014,6.8,100,A young woman is followed by an unknown supernatural force after a sexual encounter.
+M138,The Babadook,HOR,Jennifer Kent,2014,6.8,93,A widowed mother and her child fall into a deep-seated fear when they discover a terrifying book.
+M139,Us,HOR,Jordan Peele,2019,6.8,116,A family's summer vacation turns sinister when they are attacked by mysterious doppelgangers.
+M140,Suspiria,HOR,Dario Argento,1977,7.5,99,An American ballerina enrols in a prestigious European dance academy that hides a sinister secret.
+M141,Pan's Labyrinth,HOR,Guillermo del Toro,2006,8.2,118,In post-Civil War Spain, a young girl enters a fantasy world through a maze and must complete three tasks.
+M142,The Others,HOR,Alejandro Amenabar,2001,7.6,101,A woman living in her darkened old family estate with her photosensitive children becomes convinced the house is haunted.
+M143,Waltz with Bashir,ANI,Ari Folman,2008,8.0,87,An Israeli army veteran interviews fellow veterans to reconstruct his own lost memories of the 1982 Lebanon War.
+M144,Akira,ANI,Katsuhiro Otomo,1988,8.0,124,A secret military project endangers Neo-Tokyo when it causes a gang member to develop a powerful psychic ability.
+M145,Your Name,ANI,Makoto Shinkai,2016,8.4,106,Two strangers find they are linked in a bizarre way and must use that connection to change each other's fate.
+M146,Grave of the Fireflies,ANI,Isao Takahata,1988,8.5,89,A young boy and his little sister struggle to survive in wartime Japan.
+M147,The Wind Rises,ANI,Hayao Miyazaki,2013,7.7,126,A young man's passion for flight inspires him to become an aircraft designer during turbulent times in Japan.
+M148,Isle of Dogs,ANI,Wes Anderson,2018,7.9,101,When a city's dogs are banished to a nearby island, a young boy's odyssey in search of his lost pet uncovers a treacherous conspiracy.
+M149,Fantastic Mr Fox,ANI,Wes Anderson,2009,7.9,87,An urbane fox cannot resist returning to his farm-raiding ways and then must help his community survive the farmers' retaliation.
+M150,Ratatouille,ANI,Brad Bird,2007,8.1,111,A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Paris restaurant.

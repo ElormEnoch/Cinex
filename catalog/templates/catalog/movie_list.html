@@ -1,0 +1,81 @@
+{% extends "catalog/base.html" %}
+
+{% block title %}Cinex – All Movies{% endblock %}
+
+{% block content %}
+  <h1>Movies</h1>
+  <p>Browse films from the open dataset, filter by genre, or search by title and director.</p>
+
+  <form method="get">
+    <div class="search-row">
+      <div>
+        <label for="search">Search title or director</label>
+        <input id="search" name="search" type="text"
+               value="{{ search_query|default:'' }}" placeholder="e.g. Kubrick">
+      </div>
+      <div>
+        <label for="genre">Genre</label>
+        <select id="genre" name="genre">
+          <option value="">All genres</option>
+          {% for g in genres %}
+            <option value="{{ g.code }}" {% if g.code == genre_filter %}selected{% endif %}>
+              {{ g.name }}
+            </option>
+          {% endfor %}
+        </select>
+      </div>
+      <div>
+        <label>&nbsp;</label>
+        <button type="submit" class="btn">Search</button>
+        {% if search_query or genre_filter %}
+          <a href="{% url 'movie_list' %}" class="btn btn-outline">Clear</a>
+        {% endif %}
+      </div>
+    </div>
+  </form>
+
+  <p class="meta">
+    Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}.
+    Showing up to 10 movies per page.
+    {% if search_query %}Search: &ldquo;{{ search_query }}&rdquo;.{% endif %}
+  </p>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Title</th>
+        <th>Genre</th>
+        <th>Director</th>
+        <th>Year</th>
+        <th>Rating</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for movie in movies %}
+        <tr>
+          <td><a href="{% url 'movie_detail' movie.id %}">{{ movie.title }}</a></td>
+          <td><a href="{% url 'genre_detail' movie.genre.id %}">{{ movie.genre.name }}</a></td>
+          <td>{{ movie.director|default:"–" }}</td>
+          <td>{{ movie.year }}</td>
+          <td><span class="star">★</span> {{ movie.rating }}</td>
+        </tr>
+      {% empty %}
+        <tr>
+          <td colspan="5">No movies found matching your search.</td>
+        </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+
+  <div class="pagination">
+    {% if page_obj.has_previous %}
+      <a href="?page={{ page_obj.previous_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if genre_filter %}&genre={{ genre_filter }}{% endif %}">Previous</a>
+    {% endif %}
+
+    <span>Page {{ page_obj.number }} of {{ page_obj.paginator.num_pages }}</span>
+
+    {% if page_obj.has_next %}
+      <a href="?page={{ page_obj.next_page_number }}{% if search_query %}&search={{ search_query }}{% endif %}{% if genre_filter %}&genre={{ genre_filter }}{% endif %}">Next</a>
+    {% endif %}
+  </div>
+{% endblock %}

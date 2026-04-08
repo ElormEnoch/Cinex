@@ -57,7 +57,7 @@ Then open `http://127.0.0.1:8000/` in your browser.
 - `moviesite/` — main Django project settings and URL configuration
 
 ## Notes
-- The list page shows 15 movies at a time
+- The list page shows 10 movies at a time
 - The `Previous` and `Next` link move between pages
 - Every movie belongs to a genre.
 - The logout action is implemented as a POST form to support Django's logout flow.
