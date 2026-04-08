@@ -1,21 +1,13 @@
-"""
-Django settings for moviesite project.
-"""
-
+import os
 from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = 'django-insecure-m0v1es!8k@#cinema$2026^reels&action*cut!'
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-m0v1es!8k@#cinema$2026^reels&action*cut!')
 
-DEBUG = True
+DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
-ALLOWED_HOSTS = [
-    "yourusername.pythonanywhere.com",
-    "127.0.0.1",
-    "localhost",
-    "testserver",
-]
+ALLOWED_HOSTS = [h for h in os.environ.get("ALLOWED_HOSTS", "localhost,127.0.0.1").split(",") if h]
 
 INSTALLED_APPS = [
     'django.contrib.admin',
