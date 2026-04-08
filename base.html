@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}Cinex{% endblock %}</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 2rem;
+      background: #1a1a1a;
+      color: #e5e7eb;
+    }
+
+    main {
+      max-width: 60rem;
+      margin: 0 auto;
+      background: #2d2d2d;
+      padding: 2rem;
+      border: 1px solid #404040;
+    }
+
+    nav {
+      max-width: 60rem;
+      margin: 0 auto 1rem auto;
+      display: flex;
+      gap: 1.5rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #60a5fa;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    nav .site-title {
+      font-size: 1.1rem;
+      font-weight: bold;
+      margin-right: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      border-bottom: 1px solid #404040;
+      padding: 0.75rem;
+      text-align: left;
+    }
+
+    th {
+      background: #374151;
+      font-size: 0.9rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    a {
+      color: #60a5fa;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      margin: 1rem 0;
+      color: #9ca3af;
+      font-size: 0.9rem;
+    }
+
+    .pagination {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      font-size: 0.9rem;
+    }
+
+    form.inline {
+      display: inline;
+    }
+
+    .btn {
+      display: inline-block;
+      padding: 0.4rem 1rem;
+      background: #3b82f6;
+      color: #f3f4f6;
+      border: none;
+      cursor: pointer;
+      font-family: Georgia, serif;
+      font-size: 0.9rem;
+    }
+
+    .btn:hover {
+      background: #2563eb;
+    }
+
+    .btn-outline {
+      background: transparent;
+      color: #60a5fa;
+      border: 1px solid #60a5fa;
+    }
+
+    .btn-outline:hover {
+      background: #60a5fa;
+      color: #1a1a1a;
+    }
+
+    .messages {
+      list-style: none;
+      padding: 0;
+      margin: 0 0 1rem 0;
+    }
+
+    .messages li {
+      padding: 0.6rem 1rem;
+      background: #1e3a8a;
+      border-left: 3px solid #60a5fa;
+      margin-bottom: 0.5rem;
+      font-size: 0.9rem;
+    }
+
+    .star {
+      color: #60a5fa;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      background: #374151;
+      border: 1px solid #4b5563;
+      font-size: 0.8rem;
+      color: #d1d5db;
+    }
+
+    .search-row {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: flex-end;
+      margin-bottom: 1rem;
+    }
+
+    .search-row label {
+      display: block;
+      font-size: 0.85rem;
+      margin-bottom: 0.2rem;
+      color: #9ca3af;
+    }
+
+    input[type="text"], select {
+      font-family: Georgia, serif;
+      padding: 0.4rem 0.6rem;
+      border: 1px solid #525252;
+      background: #3d3d3d;
+      color: #e5e7eb;
+      font-size: 0.9rem;
+    }
+
+    dt {
+      font-weight: bold;
+      margin-top: 1rem;
+      color: #9ca3af;
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+    }
+
+    dd {
+      margin: 0.2rem 0 0.5rem 0;
+    }
+
+    .fav-btn form button,
+    .logout-form button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #60a5fa;
+      font-family: Georgia, serif;
+      font-size: 0.9rem;
+      padding: 0;
+      text-decoration: underline;
+    }
+
+    .logout-form {
+      display: inline;
+      margin: 0;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <span class="site-title"><a href="{% url 'movie_list' %}">Cinex</a></span>
+    <a href="{% url 'movie_list' %}">All Movies</a>
+    {% if user.is_authenticated %}
+      <a href="{% url 'favourites_list' %}">My Favourites</a>
+      <form action="{% url 'logout' %}" method="post" class="logout-form">
+        {% csrf_token %}
+        <button type="submit">Log out ({{ user.username }})</button>
+      </form>
+    {% else %}
+      <a href="{% url 'login' %}">Log in</a>
+      <a href="{% url 'register' %}">Register</a>
+    {% endif %}
+  </nav>
+
+  <main>
+    {% if messages %}
+      <ul class="messages">
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+    {% block content %}{% endblock %}
+  </main>
+</body>
+</html>
